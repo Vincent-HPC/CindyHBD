@@ -25,7 +25,6 @@ $('document').ready(function () {
 			$('.song')[0].play();
 		}, 100);
 	}
-
 	$('#turn_on').click(function () {
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
@@ -59,6 +58,8 @@ $('document').ready(function () {
 			$('#bannar_coming').click();
 		});
 	});
+
+
 
 	// Let's Decorate
 	$('#bannar_coming').click(function () {
