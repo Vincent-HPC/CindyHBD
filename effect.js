@@ -28,6 +28,8 @@ $('document').ready(function () {
 			// $('#play').click();
 			var audio = $('.song')[0];
 			audio.play();
+			audio.pause();
+			audio.play();
 			// $('.song').prop("volume", 0.5);
 			$('.song').prop("volume", 1);
 			$('#bulb_yellow').addClass('bulb-glow-yellow-after');
