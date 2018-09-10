@@ -16,6 +16,16 @@ $('document').ready(function () {
 		$('#b77').animate({ top: 240, left: vw + 250 }, 500);
 	});
 
+	function playsound() {
+		$('.song')[0].play();
+		$('.song')[0].pause();
+
+		setTimeout(function () {
+			$('.song')[0].currentTime = 0;
+			$('.song')[0].play();
+		}, 100);
+	}
+
 	$('#turn_on').click(function () {
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
