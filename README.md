@@ -7,4 +7,4 @@ To My friends
 
 
 reference :
-URL: http://ayusharma.github.io/birthday/
+URL: ayusharma.github.io/birthday/
